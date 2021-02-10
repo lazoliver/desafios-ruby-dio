@@ -20,12 +20,11 @@
 
 ### RESOLUÇÃO
 
-ntimes = gets.strip.to_i
-out = ""
-
-ntimes.times do |num|
-	num = gets.strip.to_i
-
+	ntimes = gets.strip.to_i
+	out = ""
+	
+	ntimes.times do |num|
+		num = gets.strip.to_i
 	if num == 0
 		out << "NULL\n"
 		
@@ -42,6 +41,6 @@ ntimes.times do |num|
 		out << "ODD NEGATIVE\n"
 	
 	end
-end
-
-puts out
+	end
+	
+	puts out
